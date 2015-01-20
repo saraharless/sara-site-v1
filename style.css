@@ -1,5 +1,4 @@
-h1, p, body {
-	color:honeydew ;
-
-	background-color:teal ;
+body {
+	background-color:teal;
+	color:honeydew;
 }
