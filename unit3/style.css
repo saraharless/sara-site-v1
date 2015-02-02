@@ -1,0 +1,28 @@
+body{
+	background:#ffffff;
+	color:#046E48;
+	text-size: 14px;
+	font-family: serif;
+}
+h1{
+	line-height: 200%;
+	background-color: #046E48;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-size:28px;
+	font-weight:normal;
+}
+h2{
+	line-height: 200%;
+	background-color: #046E48;
+	color: #ffffff;
+}
+ul{
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#slogan{
+	font-style: italic;
+	text-align: center;
+}
+
