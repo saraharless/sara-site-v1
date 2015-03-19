@@ -1,0 +1,46 @@
+body{
+	background: url(images/harbg1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color:#ffffff;
+	font-size: 24px;
+	font-family: 'Playfair Display', serif;
+}
+
+footer {
+  	text-align: center;
+  	padding: 1em 0;
+}
+
+h1{
+	text-align: center;
+	font-size:50px;
+	font-style:italic;
+}
+
+h2{
+	text-align: center;
+}
+
+IMG.displayed {
+	opacity: 0.6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+p{
+	font-family: 'Proxima Nova', sans-serif;	
+	font-size: 28px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Proxima Nova', sans-serif;	
+  font-size: 28px;
+}
+
+nav{
+	background-color: 8fefc8;
+}
