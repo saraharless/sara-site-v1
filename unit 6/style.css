@@ -31,7 +31,17 @@ section {
 	padding:4em 0;
 }
 section:nth-child(odd) {
-	background-color:rgba(30,30,30,.4);
+	background-color:rgba(143,63,200,.8);
+}
+section.work {
+	background:rgba(143,239,200,0);
+	width:50%;
+	float:left;
+	padding:.5em;
+}
+section.work:hover {
+	background:rgba(143,239,200,.8);
+	transition-duration:.2s;
 }
 footer {
   	text-align: center;
@@ -88,11 +98,6 @@ ul {
 	top:50%;
 	transform:translateY(-50%);
 	width:50%;
-}
-.work {
-	width:50%;
-	float:left;
-	padding:.1em;
 }
 .work img {
 	width:100%;
