@@ -41,20 +41,20 @@ ul {
   clear: both;
 }
 
-.nav{
+nav{
 	text-decoration: none;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #8fefc8;
 
 }
-.about {
+#about {
 	font-size: 1.2em;
 	width: 46%;
 	padding: 2%;
 	float: left;
 }
-.port{
+#portfolio{
 	margin-left: auto;
 	margin-right: auto;
 }
