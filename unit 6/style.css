@@ -1,8 +1,7 @@
-#about {
+.about {
 	font-size: 1.2em;
 	width: 46%;
 	padding: 2%;
-	display: inline-block;
 	float: left;
 }
 
@@ -16,6 +15,11 @@ body{
 }
 
 
+.displayed{
+	float: right;
+	display: inline-block;
+}
+
 footer {
   	text-align: center;
   	padding: 1em 0;
@@ -26,23 +30,23 @@ h1{
 	text-align: center;
 	font-size:50px;
 	font-style:italic;
+	clear: both;
 }
 
 h2{
 	text-align: center;
+	clear: both;
 }
 
-IMG.displayed {
-	opacity: 0.6;
-}
-
-#me{
-	float: right;
+.port{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p{
 	font-family: 'Proxima Nova', sans-serif;	
-	font-size: 28px;
+	font-size: 24px;
+	clear: both;
 }
 
 ul {
@@ -51,11 +55,13 @@ ul {
   padding: 0;
   font-family: 'Proxima Nova', sans-serif;	
   font-size: 28px;
+  clear: both;
 }
 
-nav{
+.nav{
 	text-decoration: none;
-	margin: 1.8em;
-	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: 8fefc8;
+
 }
