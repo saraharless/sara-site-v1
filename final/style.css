@@ -23,13 +23,28 @@ nav a {
 	float:left;
 	margin:.5em;
 	padding:.5em;
+	position: relative;
+	font-family: 'Proxima Nova', sans-serif;
 }
 nav img {
 	width:3em;
 }
+nav span {
+	position: absolute;
+	width: 100%;
+	bottom: -30px;
+	text-align: center;
+	margin: 0 -0.5em;
+	display: none;
+}
+nav a:hover span {
+	display: block;
+	color: white;
+}
 section {
 	padding:4em 0;
 }
+
 section:nth-child(odd) {
 	background-color:rgba(143,63,200,.8);
 }
@@ -61,6 +76,7 @@ h2{
 }
 p{
 	font-family: 'Proxima Nova', sans-serif;
+	font-size: 24px;
 }
 
 ul {
@@ -76,9 +92,25 @@ ul {
 	margin:auto;
 	position:relative;
 }
-#about div {
-	float:left;
-	width:50%;
+#about .wrapper {
+	font-size: 0;
+}
+#about .wrapper div {
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+	padding-right: 30px;
+}
+#about .wrapper .displayed{
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+#contact {
+	padding-bottom: 3em;
+}
+#contact p {
+  	text-align: center;
 }
 #portfolio{
 	margin-left: auto;
@@ -90,15 +122,6 @@ ul {
 #social img {
 	margin:.5em;
 }
-.displayed{
-	display:block;
-	padding:2em;
-	position:absolute;
-	right:0;
-	top:50%;
-	transform:translateY(-50%);
-	width:50%;
-}
 .work img {
 	width:100%;
 }
@@ -106,10 +129,67 @@ ul {
 	max-width:1200px;
 	margin:auto;
 }
+#services .wrapper {
+	font-size: 0px;
+}
+#services .wrapper h2 {
+	font-size: 36px;
+}
+#services ul, #services div.desc {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
 	height: 0; 
 	clear: both;
+}
+@media (max-width: 1000px) {
+
+	h1 {
+		float: none;
+		text-align: center;
+	}
+	nav {	
+		float: none;
+		text-align: center;
+	}
+	nav a {
+		margin: .2em;
+		float: none;
+		display: inline-block;
+	}
+	nav a img {
+		width: 1.7em;
+	}
+	#about .wrapper .displayed{
+		width: 100%;
+	}
+	#services ul, #services div.desc {
+		margin-top: 30px;
+		width: 100%;
+	}
+	section.work {
+	width:100%;
+	}
+	#social img{
+		width: 16%;
+		margin: 1%;
+	}
+	#about .wrapper div{
+		width: 100%;
+		padding: 20px; 
+	}
+	section {
+		padding: 1em;
+	}
+	#services li {
+		text-align: center;
+		font-size: 2em;
+	}
+
+
 }
